@@ -39,6 +39,7 @@ public class Login_feature {
 	    
 		driver.findElement(By.xpath(".//*[@id='password']/div[1]/div/div[1]/input")).sendKeys("mobera@1234");
 		driver.findElement(By.xpath(".//*[@id='passwordNext']/div[2]")).click();
+		System.out.println("this is test");
 		
 		throw new PendingException();
 	}
