@@ -22,7 +22,7 @@ public class Registration {
 		//driver.findElement(By.xpath("html/body/nav/div/a[2]")).click();;
 		
 		//Thread.sleep(4000);
-		driver.findElement(By.id("identifierId")).sendKeys("sou.matta@gmail.com");
+		driver.findElement(By.id("")).sendKeys("sou.matta@gmail.com");
 		driver.findElement(By.xpath(".//*[@id='identifierNext']/div[2]")).click();
 		
 		Thread.sleep(4000);
